@@ -13,12 +13,11 @@ module.exports = function(config) {
     files: [
       'angular.js',
       'angular-mocks.js',
-      'controller.js',
-      'controllerSpec.js'
+      '*.js'
     ],
 
     // list of files / patterns to exclude
-    exclude: [],
+    exclude: ['server.js'],
 
     // web server port
     port: 8080,
